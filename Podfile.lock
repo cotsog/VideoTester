@@ -1,0 +1,16 @@
+PODS:
+  - SwiftVideoGenerator (1.2.5)
+
+DEPENDENCIES:
+  - SwiftVideoGenerator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftVideoGenerator
+
+SPEC CHECKSUMS:
+  SwiftVideoGenerator: da1dbe8e5de79c71145e97c34df8f1e874a3ebcd
+
+PODFILE CHECKSUM: afebf2281145972a6175ededf9642f79c7c1b86c
+
+COCOAPODS: 1.5.3
