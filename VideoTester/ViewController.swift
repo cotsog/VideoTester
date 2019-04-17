@@ -234,7 +234,7 @@ class PhotosVC {
         print("clipAudioTrackAudclipAudioTrackAudclipAudioTrackAudclipAudioTrackAud ",clipAudioTrackAud)
         
         
-        do {/
+        do {
             try compositionVideoTrack!.insertTimeRange(CMTimeRangeMake(start: CMTime.zero, duration: avAsset.duration), of: clipAudioTrack, at: CMTime.zero)
             compositionVideoTrack!.preferredTransform = clipAudioTrack.preferredTransform
             
