@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode10
 xcode_project: VideoTester.xcworkspace
 xcode_scheme: VideoTester
-script: xcrun xcodebuild test -workspace VideoTester.xcworkspace  -scheme VideoTester -sdk iphonesimulator -destination  'platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Generic iOS Device'
+script: xcrun xcodebuild test -workspace VideoTester.xcworkspace  -scheme VideoTester -sdk iphonesimulator -destination  'platform:iOS, id:1A6C9EC8-7614-4C8F-A144-82A8D3233270, name:Generic iOS Device'
