@@ -2,8 +2,8 @@ language: objective-c
 osx_image: xcode10.2
 xcode_project: VideoTester.xcworkspace
 xcode_scheme: VideoTester 
-before_script: create-keychain.sh
-script: build.sh
-after_script: delete-keychain.sh
+before_script: ./create-keychain.sh
+script: ./build.sh
+after_script: ./delete-keychain.sh
 
  
