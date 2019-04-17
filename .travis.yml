@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode9
-xcode_project: TestingTravis.xcodeproj
-xcode_scheme: TestingTravis
-script: xcrun xcodebuild test -project TestingTravis.xcodeproj  -scheme TestingTravis -sdk iphonesimulator -destination  'platform=iOS Simulator,name=iPhone 7,OS=10.3'
+osx_image: xcode10.2
+xcode_project: VideoTester.xcworkspace
+xcode_scheme: VideoTester
+script: xcrun xcodebuild test -workspace VideoTester.xcworkspace  -scheme VideoTester -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.2'
