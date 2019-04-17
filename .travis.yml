@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode10
 xcode_project: VideoTester.xcworkspace
 xcode_scheme: VideoTester
-script: xcrun xcodebuild test -workspace VideoTester.xcworkspace  -scheme TestingTravis -sdk iphonesimulator -destination  'platform=iOS Simulator,name=iPhone 7,OS=11'
+script: xcrun xcodebuild test -workspace VideoTester.xcworkspace  -scheme VideoTester -sdk iphonesimulator -destination  'platform=iOS Simulator,name=iPhone 7,OS=11'
