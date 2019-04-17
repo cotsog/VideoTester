@@ -15,8 +15,19 @@
 		049389BB225AABE600C958B2 /* qqq.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 049389BA225AABE600C958B2 /* qqq.mp4 */; };
 		049389BD225AAC4C00C958B2 /* www.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049389BC225AAC4B00C958B2 /* www.jpg */; };
 		049389BF225AAC9E00C958B2 /* muted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049389BE225AAC9E00C958B2 /* muted.mp3 */; };
+		04BACEEB22674FE600ED24E7 /* VideoTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BACEEA22674FE600ED24E7 /* VideoTesterTests.swift */; };
 		BF41F2AC4701320DABB64110 /* Pods_VideoTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212C3ADE7902E0CCF87B482C /* Pods_VideoTester.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BACEED22674FE600ED24E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0493899D225AA8FD00C958B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049389A4225AA8FD00C958B2;
+			remoteInfo = VideoTester;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		049389A5225AA8FD00C958B2 /* VideoTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +40,9 @@
 		049389BA225AABE600C958B2 /* qqq.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qqq.mp4; sourceTree = "<group>"; };
 		049389BC225AAC4B00C958B2 /* www.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = www.jpg; sourceTree = "<group>"; };
 		049389BE225AAC9E00C958B2 /* muted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muted.mp3; sourceTree = "<group>"; };
+		04BACEE822674FE600ED24E7 /* VideoTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BACEEA22674FE600ED24E7 /* VideoTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTesterTests.swift; sourceTree = "<group>"; };
+		04BACEEC22674FE600ED24E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1826A41062F178ADBAD0E617 /* Pods-VideoTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoTester/Pods-VideoTester.debug.xcconfig"; sourceTree = "<group>"; };
 		212C3ADE7902E0CCF87B482C /* Pods_VideoTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B961B25D0B4126AA0D77D60 /* Pods-VideoTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoTester/Pods-VideoTester.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04BACEE522674FE600ED24E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -50,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				049389A7225AA8FD00C958B2 /* VideoTester */,
+				04BACEE922674FE600ED24E7 /* VideoTesterTests */,
 				049389A6225AA8FD00C958B2 /* Products */,
 				4755D6F6CD1C249E2F4D0628 /* Pods */,
 				56129384652E516A39434AB9 /* Frameworks */,
@@ -60,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				049389A5225AA8FD00C958B2 /* VideoTester.app */,
+				04BACEE822674FE600ED24E7 /* VideoTesterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +101,15 @@
 				049389B4225AA8FE00C958B2 /* Info.plist */,
 			);
 			path = VideoTester;
+			sourceTree = "<group>";
+		};
+		04BACEE922674FE600ED24E7 /* VideoTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BACEEA22674FE600ED24E7 /* VideoTesterTests.swift */,
+				04BACEEC22674FE600ED24E7 /* Info.plist */,
+			);
+			path = VideoTesterTests;
 			sourceTree = "<group>";
 		};
 		4755D6F6CD1C249E2F4D0628 /* Pods */ = {
@@ -119,18 +151,40 @@
 			productReference = 049389A5225AA8FD00C958B2 /* VideoTester.app */;
 			productType = "com.apple.product-type.application";
 		};
+		04BACEE722674FE600ED24E7 /* VideoTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BACEF122674FE600ED24E7 /* Build configuration list for PBXNativeTarget "VideoTesterTests" */;
+			buildPhases = (
+				04BACEE422674FE600ED24E7 /* Sources */,
+				04BACEE522674FE600ED24E7 /* Frameworks */,
+				04BACEE622674FE600ED24E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BACEEE22674FE600ED24E7 /* PBXTargetDependency */,
+			);
+			name = VideoTesterTests;
+			productName = VideoTesterTests;
+			productReference = 04BACEE822674FE600ED24E7 /* VideoTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0493899D225AA8FD00C958B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Mac;
 				TargetAttributes = {
 					049389A4225AA8FD00C958B2 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					04BACEE722674FE600ED24E7 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 049389A4225AA8FD00C958B2;
 					};
 				};
 			};
@@ -148,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				049389A4225AA8FD00C958B2 /* VideoTester */,
+				04BACEE722674FE600ED24E7 /* VideoTesterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +218,13 @@
 				049389B0225AA8FE00C958B2 /* Assets.xcassets in Resources */,
 				049389BD225AAC4C00C958B2 /* www.jpg in Resources */,
 				049389AE225AA8FD00C958B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BACEE622674FE600ED24E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +287,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04BACEE422674FE600ED24E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BACEEB22674FE600ED24E7 /* VideoTesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BACEEE22674FE600ED24E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049389A4225AA8FD00C958B2 /* VideoTester */;
+			targetProxy = 04BACEED22674FE600ED24E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		049389AC225AA8FD00C958B2 /* Main.storyboard */ = {
@@ -401,6 +479,46 @@
 			};
 			name = Release;
 		};
+		04BACEEF22674FE600ED24E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoTesterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demos.VideoTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoTester.app/VideoTester";
+			};
+			name = Debug;
+		};
+		04BACEF022674FE600ED24E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoTesterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demos.VideoTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoTester.app/VideoTester";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +536,15 @@
 			buildConfigurations = (
 				049389B8225AA8FE00C958B2 /* Debug */,
 				049389B9225AA8FE00C958B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BACEF122674FE600ED24E7 /* Build configuration list for PBXNativeTarget "VideoTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BACEEF22674FE600ED24E7 /* Debug */,
+				04BACEF022674FE600ED24E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
