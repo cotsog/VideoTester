@@ -226,7 +226,7 @@ class PhotosVC {
         var tracks = avAsset.tracks(withMediaType: AVMediaType.video)
         let clipAudioTrack = tracks[0]
         
-        //////////////////////
+        ////////////////////////
         
         var tracksAud = avAsset.tracks(withMediaType: AVMediaType.audio)
         var clipAudioTrackAud = tracksAud.first
@@ -234,7 +234,7 @@ class PhotosVC {
         print("clipAudioTrackAudclipAudioTrackAudclipAudioTrackAudclipAudioTrackAud ",clipAudioTrackAud)
         
         
-        do {
+        do {/
             try compositionVideoTrack!.insertTimeRange(CMTimeRangeMake(start: CMTime.zero, duration: avAsset.duration), of: clipAudioTrack, at: CMTime.zero)
             compositionVideoTrack!.preferredTransform = clipAudioTrack.preferredTransform
             
