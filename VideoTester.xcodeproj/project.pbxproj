@@ -446,8 +446,9 @@
 			baseConfigurationReference = 1826A41062F178ADBAD0E617 /* Pods-VideoTester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 93XCQ4NWB8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoTester/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +457,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demos.VideoTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Devvvvvv profile tester";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,9 +468,9 @@
 			baseConfigurationReference = 5B961B25D0B4126AA0D77D60 /* Pods-VideoTester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 93XCQ4NWB8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoTester/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +479,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demos.VideoTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Disssssss  profile tester";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
