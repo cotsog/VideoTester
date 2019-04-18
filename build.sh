@@ -1,6 +1,5 @@
 #!/bin/bash
-security list-keychains -s ios-build.keychain
-rm ~/Library/MobileDevice/Provisioning\ Profiles/profile.mobileprovision
+security list-keychains -s ios-build.keychain 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
 cp profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles
 xcrun xcodebuild -workspace VideoTester.xcworkspace -scheme VideoTester \ -archivePath VideoTester.xcarchive archive
