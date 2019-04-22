@@ -1,5 +1,8 @@
 #!/bin/bash
 KEY_PASSWORD=123
+
+xcodebuild test -workspace VideoTester.xcworkspace -scheme VideoTester -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
 # Create the keychain with a password
 security create-keychain -p travis ios-build.keychain
 # Make the custom keychain default, so xcodebuild will use it for signing

@@ -1,5 +1,7 @@
 
 #!/bin/bash
+
+
 security list-keychains -s ios-build.keychain
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
 cp "profile.mobileprovision" ~/Library/MobileDevice/Provisioning\ Profiles/
